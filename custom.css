@@ -1,11 +1,14 @@
 nav.navigation {
   height: 6.4rem;
-  padding.top: 0.5rem;
+  padding-top: 0.5rem;
 }
 nav.navigation .img {
   height: 2rem;
   top: 0.5rem;
 }
-h1.title {
+nav.navigation h1.title {
   font-size: 3rem;
+}
+section.container h4:first {
+  display: none;
 }
