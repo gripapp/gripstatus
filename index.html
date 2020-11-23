@@ -3,10 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="robots" content="index, follow">
-		<title>Grip Status</title>
+		<title>Status</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="custom.css">
 		<link rel="icon" href="https://raw.githubusercontent.com/jayfk/statuspage/master/template/favicon.png">
 		<link rel="prefetch" type="application/l10n" href="translations.ini" />
 	</head>
@@ -19,7 +20,7 @@
 
 					<a class="navigation-title" href="">
 						<img class="img" src="https://user-images.githubusercontent.com/2299292/100010360-725bd300-2dd0-11eb-9626-c203b36a6768.png" height="30">
-						<h1 class="title">Grip Status</h1>
+						<h1 class="title">Status</h1>
 					</a>
 
 
@@ -29,18 +30,20 @@
 
 			<section class="container" id="main">
 				
-					
-					<div class="panel major outage">
-						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> Grip.
+					<div class="panel operational" data-l10n-id="systems-operational">
+						All Systems Operational
 					</div>
-					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						Grip <span class="status major outage" data-l10n-id="major-outage">major outage</span>
+						Grip <span class="status operational" data-l10n-id="operational">operational</span>
+					</li>
+					
+					<li>
+						Website <span class="status operational" data-l10n-id="operational">operational</span>
 					</li>
 					
 				</ul>
@@ -52,7 +55,7 @@
 						<span class="date moment">2020-11-23 17:14:21 UTC</span>
 
 						
-							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
+							<span class="label operational float-right" data-l10n-id="resolved">resolved</span>
 						
 						
 							<span class="label system float-right">Grip</span>
@@ -61,6 +64,10 @@
 
 						<span class="title">System nicht erreichbar</span>
 						<p>Problem wird bearbeitet</p>
+
+						
+							<p><em>Update <span class="moment">2020-11-23 20:48:03 UTC</span></em></p>
+							<p>Problem gelöst. Sorry!</p>
 
 						
 					</div>
@@ -72,7 +79,7 @@
 			<footer class="footer">
 				<section class="container">
 					<hr/>
-					<p>support ät getgrip punkt de</p>
+					<p><script type='text/javascript'>eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%73%75%70%70%6f%72%74%40%67%65%74%67%72%69%70%2e%64%65%5c%22%20%69%64%3d%5c%22%66%65%65%64%62%61%63%6b%2d%66%6f%72%6d%5c%22%3e%73%75%70%70%6f%72%74%40%67%65%74%67%72%69%70%2e%64%65%3c%5c%2f%61%3e%27%29%3b'))</script></p>
 				</section>
 			</footer>
 
