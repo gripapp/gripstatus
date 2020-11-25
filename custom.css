@@ -11,3 +11,7 @@ nav.navigation h1.title {
 section.container h4:first {
   display: none;
 }
+h6 {
+  line-height: 1.2rem;
+  font-style: italic;
+}
