@@ -48,7 +48,7 @@
 				
 					
 					<div class="incident">
-						<span class="date">Mon Nov 23 17:14:21 2020 UTC</span>
+						<span class="date moment">2020-11-23 17:14:21 UTC</span>
 
 						
 							<span class="label operational float-right" data-l10n-id="resolved">resolved</span>
@@ -81,5 +81,12 @@
 
 		</main>
 		<script src="statuspage.js" type="text/javascript"></script>
+		<script>
+			console.log(moment.locale()); 
+			moment.locale(document.webL10n.getLanguage());
+			console.log(moment.locale()); 
+		</script>
+		
+		
 	</body>
 </html>
