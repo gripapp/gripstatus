@@ -69,7 +69,7 @@
 						<span class="title">{{ incident.title }}</span>
 						{{ incident.body|safe }}
 						{% for update in incident.updates %}
-							<p><em>Update <span class="">{{ update.created.strftime('%d. %B %Y %H:%M') }} UTC</span></em></p>
+							<h6>Update <span class="">{{ update.created.strftime('%d. %B %Y %H:%M') }}</span></h6>
 							{{ update.body|safe }}
 						{% endfor %}
 					</div>
