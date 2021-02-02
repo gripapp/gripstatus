@@ -1,1 +1,1 @@
-Visit this site at https://gripapp.github.io/gripstatus/
+Code for https://gripapp.github.io/gripstatus/
