@@ -1,12 +1,14 @@
 nav.navigation {
   height: 6.4rem;
   padding-top: 0.5rem;
+  background-color: #123;
 }
 nav.navigation .img {
   height: 2.8rem;
 }
 nav.navigation h1.title {
   font-size: 3rem;
+  color: #fff;
 }
 section.container h4:first {
   display: none;
