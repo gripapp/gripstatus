@@ -4,8 +4,7 @@
 
 ### Step 1: GitHub
 
-Create an issue on GitHub to describe the downtime/problem/degradation.
-https://github.com/gripapp/gripstatus/issues/new
+Create an [issue on GitHub](https://github.com/gripapp/gripstatus/issues/new) to describe the downtime/problem/degradation.
 
 - Click on the cog icon next to labels on the right.
 - Choose the affected systems (black labels)
