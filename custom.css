@@ -1,3 +1,6 @@
+#main {
+    padding-top: 12rem;
+}
 nav.navigation {
   height: 6.4rem;
   padding-top: 0.5rem;
@@ -12,6 +15,12 @@ nav.navigation h1.title {
 }
 section.container h4:first {
   display: none;
+}
+section.container h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.8px;
 }
 h6 {
   line-height: 1.2rem;
